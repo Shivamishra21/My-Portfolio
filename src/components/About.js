@@ -26,7 +26,7 @@ const About = () => {
               <Row className="align-items-start p-2 my-details rounded">
                 Greetings! My name is <strong>&nbsp;Shiva Mishra. </strong><br/>I am a
                 passionate programmer and learner, born and brought up in
-                <strong>Uttar pradesh, India.</strong>I am a Full Stack Web
+                <b>Uttar pradesh, India.</b>I am a Full Stack Web
                 Developer with React.js, Experss.js, Node.js and Mongodb as my
                 tech stack. Currently, am pursuing my Computer Science
                 Engineering. I always try my best to make amazing and innovative

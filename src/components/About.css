@@ -1,23 +1,24 @@
-  
 .about {
-    background-color: transparent;
-    font-size: 1.1em;
-    z-index: 100000;
-  }
-  
-  .profile {
-    max-width: 18em;box-shadow: 4px 8px 30px 4px rgb(0,0,0,0.7);
-  }
-  
-  .my-details {
-    background-color: rgba(255, 255, 255, 0.747);
-    transition: 0.8s;
-    box-shadow: 4px 8px 30px 4px rgb(0,0,0,0.7);
-  }
-  .my-details:hover{
-      
-     
-    
-      
+  background-color: transparent;
+  font-size: 1.1em;
+  z-index: 100000;
+}
 
-  }
+.profile {
+  max-width: 18em;
+  box-shadow: 4px 8px 30px 4px rgb(0, 0, 0, 0.7);
+  transition: transform 0.3s;
+}
+
+.profile:hover {
+  transform: scale(1.05);
+}
+
+.my-details {
+  background-color: rgba(255, 255, 255, 0.747);
+  transition: transform 0.3s;
+  box-shadow: 4px 8px 30px 4px rgb(0, 0, 0, 0.7);
+}
+.my-details:hover {
+  transform: scale(1.2);
+}
