@@ -8,7 +8,7 @@ import './Carousal.css'
 
 const Carousal = () => {
   return (
-    <div id = "home" className="overlay">
+    <div id = "home">
       <Carousel controls={false} indicators interval={1500} pause={false}>
         <Carousel.Item>
           <img className="d-block w-100 custom-img" src={bg1} alt="First slide" />

@@ -1,0 +1,23 @@
+  
+.about {
+    background-color: transparent;
+    font-size: 1.1em;
+    z-index: 100000;
+  }
+  
+  .profile {
+    max-width: 18em;box-shadow: 4px 8px 30px 4px rgb(0,0,0,0.7);
+  }
+  
+  .my-details {
+    background-color: rgba(255, 255, 255, 0.747);
+    transition: 0.8s;
+    box-shadow: 4px 8px 30px 4px rgb(0,0,0,0.7);
+  }
+  .my-details:hover{
+      
+     
+    
+      
+
+  }
