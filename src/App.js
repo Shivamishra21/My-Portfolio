@@ -5,9 +5,10 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import background from "../src/assets/background4.jpg";
 import { Parallax } from "react-parallax";
-import { Fade,Slide } from "react-reveal";
+import { Fade, Slide } from "react-reveal";
 import { Container } from "react-bootstrap";
 import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -35,6 +36,13 @@ const App = () => {
         <Slide bottom duration={500}>
           <hr />
           <Skills />
+        </Slide>
+      </Container>
+
+      <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <Contact/>
         </Slide>
       </Container>
     </div>
