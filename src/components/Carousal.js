@@ -4,6 +4,7 @@ import bg2 from "../assets/background2.jpg";
 import bg3 from "../assets/background3.jpg";
 import { Carousel } from "react-bootstrap";
 import './Carousal.css'
+import ScrollDown from "./ScrollDown";
 
 
 const Carousal = () => {
@@ -21,7 +22,7 @@ const Carousal = () => {
         </Carousel.Item>
 
       </Carousel>
-      <div className="overlay"></div>
+      <ScrollDown/>
      
     </div>
   );
