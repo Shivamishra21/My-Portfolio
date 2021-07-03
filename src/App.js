@@ -9,7 +9,7 @@ import { Fade, Slide } from "react-reveal";
 import { Container } from "react-bootstrap";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
-
+import Footer from './components/Footer'
 const App = () => {
   return (
     <div className="App">
@@ -45,6 +45,8 @@ const App = () => {
           <Contact/>
         </Slide>
       </Container>
+    <hr/>
+    <Footer/>
     </div>
   );
 };
