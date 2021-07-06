@@ -9,7 +9,8 @@ import { Fade, Slide } from "react-reveal";
 import { Container } from "react-bootstrap";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
-import Footer from './components/Footer'
+import Footer from './components/Footer';
+import { Project } from "./components/Project";
 const App = () => {
   return (
     <div className="App">
@@ -43,6 +44,12 @@ const App = () => {
         <Slide bottom duration={500}>
           <hr />
           <Contact/>
+        </Slide>
+      </Container>
+      <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <Project/>
         </Slide>
       </Container>
     <hr/>

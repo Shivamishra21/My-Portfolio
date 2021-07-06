@@ -27,7 +27,7 @@ const About = () => {
                 Greetings! My name is <strong>&nbsp;Shiva Mishra. </strong><br/>I am a
                 passionate programmer and learner, born and brought up in
                 <b>Uttar pradesh, India.</b>I am a Full Stack Web
-                Developer with React.js, Experss.js, Node.js and Mongodb as my
+                Developer with React.js, Express.js, Node.js and Mongodb as my
                 tech stack. Currently, am pursuing my Computer Science
                 Engineering. I always try my best to make amazing and innovative
                 projects. Learning about new technologies is always exciting for
