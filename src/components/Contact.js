@@ -5,10 +5,10 @@ import { Button,Row,Col,Jumbotron } from "react-bootstrap";
 const Contact = () => {
   return (
     <div id="contact">
-    <he className="text-center pt-3 pb-3 font-details-b pb-3">CONTACT ME</he>
+    <h1 className="text-center pt-3 pb-3 font-details-b pb-3">CONTACT ME</h1>
       <Jumbotron className="contact-jumbotron">
         <Row>
-          <Col className="d-flex justify-content flex-wrap">
+          <Col className="d-flex justify-content-center flex-wrap">
             <div className="m-2">
               <a
                 href="mailto:shivamishra2102@gmail.com"
@@ -30,7 +30,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button variant="outline-primary" title="My LinkedIn account">
+                <Button variant="outline-info" title="My LinkedIn account">
                   <i className="fas fa-linkedin" />
                   LinkedIn
                 </Button>
@@ -54,7 +54,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button variant="outline-info" title="My Facebook account">
+                <Button variant="outline-primary" title="My Facebook account">
                   <i className="fas fa-facebook-square" />
                   Facebook
                 </Button>
@@ -66,7 +66,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button variant="outline-dark" title="My Instagram account">
+                <Button variant="outline-warning" title="My Instagram account">
                   <i className="fas fa-instagram" />
                   Instagram
                 </Button>
@@ -78,7 +78,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button variant="outline-dark" title="My Twitter account">
+                <Button variant="outline-success" title="My Twitter account">
                   <i className="fas fa-twitter" />
                   Twitter
                 </Button>

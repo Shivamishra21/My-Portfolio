@@ -11,12 +11,19 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from './components/Footer';
 import { Project } from "./components/Project";
+import Particles from 'react-particles-js';
+import { particlesOptions } from "./components/Particle";
+
 const App = () => {
   return (
-    <div className="App">
+    <div className="App" style={{position:"relative"}} >
       <Navbar />
       <Carousal />
       <TypewritterPortfolio />
+       <Particles
+        className="particles particles-box"
+        params={particlesOptions}
+      />
       <div>
         <Parallax
           blur={{ min: 0, max: 3 }}
@@ -40,16 +47,17 @@ const App = () => {
         </Slide>
       </Container>
 
+     
       <Container className="container-box rounded">
         <Slide bottom duration={500}>
           <hr />
-          <Contact/>
+          <Project/>
         </Slide>
       </Container>
       <Container className="container-box rounded">
         <Slide bottom duration={500}>
           <hr />
-          <Project/>
+          <Contact/>
         </Slide>
       </Container>
     <hr/>
